@@ -1,0 +1,88 @@
+{
+  "name": "game-ui-icons",
+  "version": "1.2.0",
+  "description": "Optimized small-UI icon set for the game UI. Idle PNG + hover WebM.",
+  "asset_profile": {
+    "target_ui_size_px": "approximately 32-48 CSS px",
+    "png_size_px": 160,
+    "webm_size_px": 160,
+    "webm_codec": "VP9",
+    "webm_fps": 24,
+    "notes": "These assets are optimized for small on-screen icons instead of full-size viewing."
+  },
+  "conventions": {
+    "default_state": "Use the PNG as the idle/default icon.",
+    "hover_state": "On mouseenter, keep the PNG visible underneath, start the matching WebM, and only reveal the WebM once it can play. On mouseleave, pause/reset the WebM and show the PNG again.",
+    "preload": "Preload WebM files only for icons that are actually present in the current UI/order list.",
+    "visual_consistency": "Apply the same CSS filter/contrast treatment to both PNG and WebM.",
+    "recommended_transition": "Fade the WebM in over the PNG over about 100-150 ms once the video is ready."
+  },
+  "icons": [
+    {
+      "id": "energy",
+      "label_da": "Energi",
+      "png": "static_icons/energy.png",
+      "webm": "animated_icons/energy.webm"
+    },
+    {
+      "id": "heat",
+      "label_da": "Varme",
+      "png": "static_icons/heat.png",
+      "webm": "animated_icons/heat.webm"
+    },
+    {
+      "id": "oxygen",
+      "label_da": "Ren Ilt",
+      "png": "static_icons/oxygen.png",
+      "webm": "animated_icons/oxygen.webm"
+    },
+    {
+      "id": "rations",
+      "label_da": "Rationer",
+      "png": "static_icons/rations.png",
+      "webm": "animated_icons/rations.webm"
+    },
+    {
+      "id": "emergency-reactor",
+      "label_da": "Nødreaktor",
+      "png": "static_icons/emergency-reactor.png",
+      "webm": "animated_icons/emergency-reactor.webm"
+    },
+    {
+      "id": "heat-loop",
+      "label_da": "Varmekredsløb",
+      "png": "static_icons/heat-loop.png",
+      "webm": "animated_icons/heat-loop.webm"
+    },
+    {
+      "id": "workshop",
+      "label_da": "Værkstedssektion",
+      "png": "static_icons/workshop.png",
+      "webm": "animated_icons/workshop.webm"
+    },
+    {
+      "id": "ship",
+      "label_da": "Skibet",
+      "png": "static_icons/ship.png",
+      "webm": "animated_icons/ship.webm"
+    },
+    {
+      "id": "colony",
+      "label_da": "Kolonien",
+      "png": "static_icons/colony.png",
+      "webm": "animated_icons/colony.webm"
+    },
+    {
+      "id": "colonists",
+      "label_da": "Kolonisterne",
+      "png": "static_icons/colonists.png",
+      "webm": "animated_icons/colonists.webm"
+    },
+    {
+      "id": "planet",
+      "label_da": "Planeten",
+      "png": "static_icons/planet.png",
+      "webm": "animated_icons/planet.webm"
+    }
+  ]
+}
